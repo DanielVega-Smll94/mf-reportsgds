@@ -3,7 +3,10 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  apiReportes:"http://172.16.11.25:7007/api/",
+  domDashboard: "http://localhost:4300",
+  domHostNameDashboard: "http://test.procamaronex.com:8060",
 };
 
 /*

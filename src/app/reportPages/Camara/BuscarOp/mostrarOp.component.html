@@ -1,0 +1,55 @@
+<div *ngIf="showComponent">
+    <div id="menuPanel" class="content" [style]="{ padding: '35px' }">
+
+        <div class="container">
+            <h1 class="fontTitle">Reporte de OP</h1>
+            <div class="registration-form ">
+                <div class="titleheader">
+                    <mat-card-header>
+                        <mat-card-title-group class="title">
+                            <mat-card-title role="heading" aria-level="1"> </mat-card-title>
+                            <mat-card-subtitle role="heading" aria-level="2" role="heading" aria-level="2"><br>
+                            </mat-card-subtitle>
+                        </mat-card-title-group>
+                    </mat-card-header>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- Buscar -->
+
+        <div class="box box-primary">
+            <div class="form-busqueda-filtros">
+                <!--<button (click)="minimizeFilters()">Mostrar/Ocultar Búsqueda</button> -->
+                <button class="search-button" (click)="minimizeFilters()">
+                    <span class="material-icons search-icon">expand_more</span>
+                </button>
+                <mat-card-header>
+                    <mat-card-title-group class="title">
+                        <mat-card-title role="heading" aria-level="1">Filtro</mat-card-title>
+                        <mat-card-subtitle role="heading" aria-level="2" role="heading" aria-level="2"><br>
+
+                        </mat-card-subtitle>
+                    </mat-card-title-group>
+                </mat-card-header>
+                <div class="search-container" [formGroup]="searchDatasourceForm!" [hidden]="!isVisibleFilter">
+                    <input formControlName="cod" type="text" placeholder="Ingrese OP..." class="search-input"
+                        (keypress)="validatorsServ.withoutSpace($event)"
+                        (input)="searchDatasourceForm.controls['cod'].setValue(searchDatasourceForm.value.cod.trimStart().toUpperCase().toUpperCase())"
+                        (blur)="searchDatasourceForm.controls['cod'].setValue(searchDatasourceForm.value.cod.trimEnd().toUpperCase().toUpperCase())">
+                    <button [disabled]="searchDatasourceForm.invalid" type="submit" class="search-submit btn-primary"
+                        (click)="searchData()">Buscar</button>
+                </div>
+
+            </div>
+
+        </div>
+        <!--Fin buscar-->
+        <app-dxdatagrid [keyGrid]="'codigoBarra'" [defaultGroupBy]="defaultGroupBy" *ngIf="dataSourceOP?.codesList"
+            [dataSource]="dataSourceOP.codesList"></app-dxdatagrid>
+    </div>
+</div>
+<app-spinner [animationEvent]="'ball-clip-rotate-multiple'"></app-spinner>
+<app-noaccess *ngIf="!showComponent"></app-noaccess>

@@ -1,1 +1,122 @@
 /* You can add global styles to this file, and also import other style files */
+.box.box-primary {
+    border-top-color: #3c8dbc;
+  }
+  
+  .box {
+    position: relative;
+    border-radius: 3px;
+    background: #ffffff;
+    border-top: 3px solid #d2d6de;
+    /* width: 100%; */
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  }
+  .box-body {
+    padding-bottom: 10px;
+  }
+  ::ng-deep .form-busqueda-filtros {
+    padding-top: 5px;
+    margin-bottom: 5px;
+    margin: 0px;
+  }
+
+
+  .fontTitle {
+    font: 400 16px/28px Roboto, "Helvetica Neue", sans-serif;
+    letter-spacing: normal;
+    margin: 0 0 16px;
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .search-container.hidden {
+    display: none;
+  }
+
+  .search-button {
+    border: none;
+    background: none;
+    color: #333;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 4%;
+    border: 1px solid #a69e9e;
+    padding: 1px;
+  
+  }
+  .search-icon i {
+    font-size: 1.2rem;
+  }
+  
+  .search-container {
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  
+  .search-input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
+    width: 70%;
+  }
+  
+  .search-submit {
+    border: none;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-submit:hover {
+    background: #666;
+  }
+  .outlined-input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0px;
+  }
+
+  button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  .btn-primary {
+    color: #fff;
+    background-color: #416273;
+    border-color: #416273;
+    // margin-top: 10px;
+  }
+  .gridStyle{    
+    height: 450px;
+}
+
+.dx-datagrid-headers .dx-datagrid-table .dx-row > td {
+    border-bottom: 1px solid #ddd;
+    background: #416273;
+    color: white;
+    font-weight: bold;
+}
+
+.dx-datagrid-rowsview .dx-row-focused.dx-data-row .dx-command-edit:not(.dx-focused) .dx-link, .dx-datagrid-rowsview .dx-row-focused.dx-data-row > td:not(.dx-focused), .dx-datagrid-rowsview .dx-row-focused.dx-data-row > tr > td:not(.dx-focused) {
+    background-color: #ff8343 !important;
+    color: #fff;
+    //     background-color: #5c95c5;
+    // color: #fff;
+}
+.dx-datagrid .dx-header-filter-empty {
+    color: rgb(255 255 255) !important;
+}

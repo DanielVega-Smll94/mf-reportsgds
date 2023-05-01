@@ -1,0 +1,144 @@
+{
+  "resp": [
+    {
+      "codesGroup": [
+        {
+          "totalCod": 448.0,
+          "loteMarcado": "PRO-3670-C",
+          "codigoProducto": "PT003696"
+        },
+        {
+          "totalCod": 54.0,
+          "loteMarcado": "PRO-3669-C",
+          "codigoProducto": "PT003696"
+        }
+      ],
+      "codConte": "OTPU6202442",
+      "codesList": [
+        {
+          "opProduccion": "220001065",
+          "codigoBarra": "00130108700011429153",
+          "tipo": "Entero",
+          "loteMarcado": "PRO-3669-C",
+          "talla": "30/40",
+          "lote": "039-7674-C",
+          "fila": 1.0,
+          "codigoProducto": "PT003696",
+          "tipoCodigo": "M"
+        },
+        {
+          "opProduccion": "220001065",
+          "codigoBarra": "00130108700011428705",
+          "tipo": "Entero",
+          "loteMarcado": "PRO-3669-C",
+          "talla": "30/40",
+          "lote": "039-7674-C",
+          "fila": 1.0,
+          "codigoProducto": "PT003696",
+          "tipoCodigo": "M"
+        },
+        {
+          "opProduccion": "220001065",
+          "codigoBarra": "00130108700011428736",
+          "tipo": "Entero",
+          "loteMarcado": "PRO-3669-C",
+          "talla": "30/40",
+          "lote": "039-7674-C",
+          "fila": 1.0,
+          "codigoProducto": "PT003696",
+          "tipoCodigo": "M"
+        },
+        {
+          "opProduccion": "220001065",
+          "codigoBarra": "00130108700011428972",
+          "tipo": "Entero",
+          "loteMarcado": "PRO-3669-C",
+          "talla": "30/40",
+          "lote": "039-7674-C",
+          "fila": 1.0,
+          "codigoProducto": "PT003696",
+          "tipoCodigo": "M"
+        },
+        {
+          "opProduccion": "220001065",
+          "codigoBarra": "00130108700011429726",
+          "tipo": "Entero",
+          "loteMarcado": "PRO-3669-C",
+          "talla": "30/40",
+          "lote": "039-7674-C",
+          "fila": 1.0,
+          "codigoProducto": "PT003696",
+          "tipoCodigo": "M"
+        },
+        {
+          "opProduccion": "220001065",
+          "codigoBarra": "00130108700011429535",
+          "tipo": "Entero",
+          "loteMarcado": "PRO-3669-C",
+          "talla": "30/40",
+          "lote": "039-7674-C",
+          "fila": 1.0,
+          "codigoProducto": "PT003696",
+          "tipoCodigo": "M"
+        },
+        {
+          "opProduccion": "220001065",
+          "codigoBarra": "00130108700011428538",
+          "tipo": "Entero",
+          "loteMarcado": "PRO-3669-C",
+          "talla": "30/40",
+          "lote": "039-7674-C",
+          "fila": 1.0,
+          "codigoProducto": "PT003696",
+          "tipoCodigo": "M"
+        },
+        {
+          "opProduccion": "220001065",
+          "codigoBarra": "00130108700011559690",
+          "tipo": "Entero",
+          "loteMarcado": "PRO-3669-C",
+          "talla": "30/40",
+          "lote": "037-7689-C",
+          "fila": 1.0,
+          "codigoProducto": "PT003696",
+          "tipoCodigo": "M"
+        },
+        {
+          "opProduccion": "220001065",
+          "codigoBarra": "00130108700011428514",
+          "tipo": "Entero",
+          "loteMarcado": "PRO-3669-C",
+          "talla": "30/40",
+          "lote": "039-7674-C",
+          "fila": 1.0,
+          "codigoProducto": "PT003696",
+          "tipoCodigo": "M"
+        },
+        {
+          "opProduccion": "220001065",
+          "codigoBarra": "00130108700011428675",
+          "tipo": "Entero",
+          "loteMarcado": "PRO-3669-C",
+          "talla": "30/40",
+          "lote": "039-7674-C",
+          "fila": 1.0,
+          "codigoProducto": "PT003696",
+          "tipoCodigo": "M"
+        },
+        {
+          "opProduccion": "220001065",
+          "codigoBarra": "00130108700011428828",
+          "tipo": "Entero",
+          "loteMarcado": "PRO-3669-C",
+          "talla": "30/40",
+          "lote": "039-7674-C",
+          "fila": 1.0,
+          "codigoProducto": "PT003696",
+          "tipoCodigo": "M"
+        }
+      ]
+    }
+  ],
+  "stringCodResp": "OK",
+  "intCodResp": 20
+}
