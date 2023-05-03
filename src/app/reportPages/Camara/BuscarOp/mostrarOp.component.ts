@@ -27,7 +27,7 @@ export class MostrarOPComponent implements OnInit, AfterViewInit, actionsForm {
     'loteMarcado',
     'codigoProducto'
   ];
-  usuario: string = "";
+  usuario: string | null = null;
   etiquetas: any = [] = [];
   showComponent: boolean = false;
   constructor(private fb: FormBuilder, private reporteriaSrv: ReportsService, private toastr: ToastrService,
@@ -91,10 +91,8 @@ export class MostrarOPComponent implements OnInit, AfterViewInit, actionsForm {
 
     if (localStorage.getItem("etiquetas") && localStorage.getItem("localstorage") && localStorage.getItem("bearer")) {
       this.showComponent = true
-      this.usuario = localStorage.getItem("user") ?? "";
-      this.searchDatasourceForm.patchValue({
-        user: this.usuario //localStorage.getItem('user')??''
-      })
+      this.usuario = null; //localStorage.getItem("user") ?? "";
+      this.searchDatasourceForm.patchValue({ user: this.usuario })
     };
   }
 }
