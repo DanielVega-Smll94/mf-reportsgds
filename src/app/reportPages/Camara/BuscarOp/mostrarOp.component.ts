@@ -11,6 +11,7 @@ import { actionsForm } from 'src/app/core/interfaces/actions';
 import { CustomValidatorService } from 'src/app/core/functions/customValidatorServ';
 import { SpinnerComponent } from 'src/app/shared/Component/spinner/spinner.component';
 import { CommonService } from 'src/app/core/services/common.service';
+import { titulos } from 'src/app/core/constantes/constantes';
 @Component({
   selector: 'app-mostrarOp',
   templateUrl: './mostrarOp.component.html',
@@ -30,6 +31,7 @@ export class MostrarOPComponent implements OnInit, AfterViewInit, actionsForm {
   usuario: string | null = null;
   etiquetas: any = [] = [];
   showComponent: boolean = false;
+  constantes = titulos
   constructor(private fb: FormBuilder, private reporteriaSrv: ReportsService, private toastr: ToastrService,
     public validatorsServ: CustomValidatorService, private router: Router, private commonServ: CommonService) {
     router.events.subscribe((urlPath: any) => {
